@@ -1,3 +1,5 @@
+/******************** Header ********************/
+
 header {
     display: grid;
     grid-template-columns: 44px auto 44px;
@@ -13,7 +15,7 @@ header {
     display: block;
     width: 100%;
     height: auto;
-    padding-top: 10px;
+    padding-top: 3px;
 }
 
 header span {
@@ -38,6 +40,8 @@ header span {
     content: "\00D7"
 }
 
+/******************** navigation ********************/
+
 .navigation {
     display: none;
 }
@@ -45,6 +49,7 @@ header span {
 .navigation.show {
     display: block
 }
+
 .navigation ul {
     list-style-type: none;
     margin: 0;
@@ -68,9 +73,12 @@ header span {
     background-color: #ecbd35;
 }
 
+/******************** Body ********************/
+
 body {
     background-color: #ffeda8;
     color:#003631;
+    margin: 0;
 }
 
 h1 {
@@ -82,28 +90,104 @@ h1 {
     grid-template-columns: 1fr;
 }
 
+/******************** Card 1 ********************/
+
 .card1 {
     display: block;
 }
+
+/******************** Card 2 ********************/
 
 .card2 {
     display: block;
 }
 
 .card2 img {
-    margin: 10px auto;
-    
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.card1 h2 {
+    background-color: #003631;
+    color: #ffeda8;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card2 h2 {
+    background-color: #003631;
+    color: #ffeda8;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 h2 {
     background-color: #003631;
     color: #ffeda8;
     text-align: center;
+    border-radius: 10px;
 }
 
-.svg {
+/******************** Courses ********************/
+
+#course-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#course-count {
     text-align: center;
 }
+
+.course {
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.completed {
+    background-color: #ecbd35;
+    border: 2px solid #003631;
+    color: #003631;
+    margin: 10px;
+}
+
+.not-completed {
+    background-color: #003631;
+    border: 2px solid #ecbd35;
+    color: #fce190;
+    margin: 10px;
+}
+
+
+/******************** Socials ********************/
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding-bottom: 1rem;
+}
+
+
+/******************** Footer ********************/
 
 footer {
     padding: 1rem;
