@@ -1,0 +1,92 @@
+[{
+    "name": "Dukkah Restaurant & Bar",
+    "address": "59 Florida Rd, Morningside Durban 4001",
+    "phoneNumber": "031 271 3531",
+    "websiteUrl": "dukkah.co.za",
+    "image": "",
+    "email": "info@dukkah.co.za",
+    "membershipLevel": "3"
+    
+},
+
+{
+    "name": "9th Aveneu Waterside",
+    "address": "2 Maritime PI, Habour, Durban 4001",
+    "phoneNumber": "031 940 4628",
+    "websiteUrl": "9thavenuewaterside.co.za",
+    "image": "",
+    "email": "dineplan.com",
+    "membershipLevel": "3"
+},
+
+{
+    "name": "The Chef's Table",
+    "address": "1 chartwell Drive 23-24 First Floor, Umhlanga 4023",
+    "phoneNumber": "031 001 0200",
+    "websiteUrl": "thechefstable.co.za",
+    "image": "",
+    "email": "info@thechefstable.com",
+    "membershipLevel": "3"
+},
+
+{
+    "name": "Cox Yeats Attorneys Durban",
+    "address": "27 Ncondo Place Vuna CI, Umhlanga Ridge Durban 4319 ",
+    "phoneNumber": "031 536 8500",
+    "websiteUrl": "coxyeats.co.za",
+    "image": "",
+    "email": "info@coxyyeats.com",
+    "membershipLevel": "2"
+},
+
+{
+    "name": "BNT Accounting",
+    "address": "1a Frosterley Cres, La Lucia, Umhlanga 4051",
+    "phoneNumber": "082 569 3761",
+    "websiteUrl": "www.bntacctax.co.za",
+    "image": "",
+    "email": "info@bnt.com",
+    "membershipLevel": "2"
+},
+
+{
+    "name": "Datalink IT Services",
+    "address": "8 Village Rd Kloof, Durban 3610",
+    "phoneNumber": "031 279 8030",
+    "websiteUrl": "dlit.co.za",
+    "image": "",
+    "email": "hello@dlit.co.za",
+    "membershipLevel": "1"
+},
+
+{
+    "name": "GVK Siya Zama Construction",
+    "address": "7 Brendon Lane, Grayleigh Westville Durban 3629 ",
+    "phoneNumber": "031 314 3700",
+    "websiteUrl": "www.siyazama.co.za",
+    "image": "",
+    "email": "natal@siyazama.co.za",
+    "membershipLevel": "1"
+},
+
+{
+    "name": "",
+    "address": "",
+    "phoneNumber": "",
+    "websiteUrl": "",
+    "ceo": "",
+    "image": "",
+    "membershipLevel": ""
+},
+
+{
+    "name": "",
+    "address": "",
+    "phoneNumber": "",
+    "websiteUrl": "",
+    "ceo": "",
+    "image": "",
+    "membershipLevel": ""
+}
+
+]

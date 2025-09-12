@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+    header, main, footer {
+        
+        margin: 0 auto;
+    }
+
+    header {
+        grid-template-columns: 44px  auto;
+    }
+
+    header img {
+        margin-left: 80px;
+    }
+
+    .hamburger {
+        display: none;
+
+    }
+
+    .navigation {
+        display: block;
+        border-bottom: solid 1px #003631;
+    }
+
+    .navigation ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-around;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+}
