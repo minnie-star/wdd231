@@ -25,22 +25,43 @@ async function getMembers() {
   displayMembers(members);
 }
 
+async function getMembersList() {
+  const res = await fetch("data/members.json");
+  const memberslist = await res.json();
+  displayList(memberslist);
+}
+
 function displayMembers(members) {
   container.innerHTML = "";
   members.forEach(member => {
     const card = document.createElement("div");
     card.classList.add("member-card");
     card.innerHTML = `
-      <img src="images/${member.image}" alt="${member.name}">
+      <img src="images/${member.image}" alt="${member.name}" width="50" height="50">
       <h2>${member.name}</h2>
       <p><strong>Address:</strong> ${member.address}</p>
       <p><strong>Phone Number:</strong> ${member.phoneNumber}</p>
       <a href="${member.website}" target="_blank">Visit Website</a>
       <p><strong>Membership:</strong> ${membershipLevel(member.membershipLevel)}</p>
-      <p>${member.email}</p>
+      <p><strong>Email:</strong> ${member.email}</p>
     `;
     container.appendChild(card);
   });
+}
+
+function displayList(members) {
+  container.innerHTML = "";
+  members.forEach(member => {
+    const list = document.createElement("table");
+    list.classList.add("member-list");
+    list.innerHTML = `
+    <table>
+      <tr>
+        <td>${member.name} ${member.address} ${member.phoneNumber} ${member.website}<td/>
+      <tr/>
+    </table>`;
+    container.appendChild(list);
+  })
 }
 
 function membershipLevel(level) {
@@ -61,5 +82,6 @@ listBtn.addEventListener("click", () => {
 })
 
 getMembers();
+//getMembersList();
 
 })

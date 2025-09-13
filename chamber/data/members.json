@@ -3,7 +3,7 @@
     "address": "59 Florida Rd, Morningside Durban 4001",
     "phoneNumber": "031 271 3531",
     "websiteUrl": "dukkah.co.za",
-    "image": "",
+    "image": "images/dukkah.jpeg",
     "email": "info@dukkah.co.za",
     "membershipLevel": 3
     
@@ -14,7 +14,7 @@
     "address": "2 Maritime PI, Habour, Durban 4001",
     "phoneNumber": "031 940 4628",
     "websiteUrl": "9thavenuewaterside.co.za",
-    "image": "",
+    "image": "images/9thavenue.jpeg",
     "email": "dineplan.com",
     "membershipLevel": 3
 },
@@ -24,7 +24,7 @@
     "address": "1 chartwell Drive 23-24 First Floor, Umhlanga 4023",
     "phoneNumber": "031 001 0200",
     "websiteUrl": "thechefstable.co.za",
-    "image": "",
+    "image": "images/chefstable.jpeg",
     "email": "info@thechefstable.com",
     "membershipLevel": 3
 },
@@ -34,7 +34,7 @@
     "address": "27 Ncondo Place Vuna CI, Umhlanga Ridge Durban 4319 ",
     "phoneNumber": "031 536 8500",
     "websiteUrl": "coxyeats.co.za",
-    "image": "",
+    "image": "images/coxyeats.jpeg",
     "email": "info@coxyyeats.com",
     "membershipLevel": 2
 },
@@ -44,7 +44,7 @@
     "address": "1a Frosterley Cres, La Lucia, Umhlanga 4051",
     "phoneNumber": "082 569 3761",
     "websiteUrl": "www.bntacctax.co.za",
-    "image": "",
+    "image": "images/bnt.jpeg",
     "email": "info@bnt.com",
     "membershipLevel": 1
 },
@@ -54,7 +54,7 @@
     "address": "8 Village Rd Kloof, Durban 3610",
     "phoneNumber": "031 279 8030",
     "websiteUrl": "dlit.co.za",
-    "image": "",
+    "image": "images/datalink.jpeg",
     "email": "hello@dlit.co.za",
     "membershipLevel": 2
 },
@@ -64,7 +64,7 @@
     "address": "7 Brendon Lane, Grayleigh Westville Durban 3629 ",
     "phoneNumber": "031 314 3700",
     "websiteUrl": "www.siyazama.co.za",
-    "image": "",
+    "image": "images/siyazama.jpeg",
     "email": "natal@siyazama.co.za",
     "membershipLevel": 1
 },
