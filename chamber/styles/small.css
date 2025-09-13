@@ -59,8 +59,8 @@ header span {
   border-bottom: solid 1px #003631;
 }
 
-.navigation li.current {
-  background-color: #ffeda8;
+.navigation li.current a {
+  background-color: #fad976;
 }
 
 .navigation a:hover {
@@ -71,14 +71,16 @@ header span {
 /******************** body ********************/
 
 body {
-    background-color: #ffeda8;
-    color: #003631;
-    margin: 0;
-    font-family: 'Acme', Arial, sans-serif;
+  background-color: #ffeda8;
+  color: #003631;
+  margin: 0;
+  font-family: 'Acme', Arial, sans-serif;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #membersContainer {
