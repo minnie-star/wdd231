@@ -164,3 +164,12 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
 }
+
+.footer span {
+  display: block;
+}
+
+.footer span {
+  display: inline-block;
+  width: 100%;
+}
