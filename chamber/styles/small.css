@@ -59,8 +59,8 @@ header span {
   border-bottom: solid 1px #003631;
 }
 
-.navigation li.current a {
-  background-color: #fde394;
+.navigation li.current a{
+  background-color: #fadd88;
 }
 
 .navigation a:hover {
@@ -74,7 +74,6 @@ body {
   background-color: #ffeda8;
   color: #003631;
   margin: 0;
-  font-family: 'Acme', Arial, sans-serif;
 }
 
 h1 {
@@ -152,7 +151,7 @@ h1 {
   justify-content: center;
   column-gap: 20px;
   padding-bottom: 1rem;
-  padding-top: 1rem;
+  
 }
 
 /******************** footer ********************/
