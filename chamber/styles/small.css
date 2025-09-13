@@ -1,3 +1,5 @@
+/******************** navigation ********************/
+
 header {
   display: grid;
   grid-template-columns:  44px auto 44px;
