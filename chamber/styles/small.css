@@ -72,10 +72,83 @@ body {
     background-color: #ffeda8;
     color: #003631;
     margin: 0;
+    font-family: 'Acme', Arial, sans-serif;
 }
 
 h1 {
     text-align: center;
+}
+
+#membersContainer {
+  display: grid;
+  gap: 1rem;
+  margin: 20px;
+}
+
+.grid-view {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.list-view .member-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem;
+  margin: 0;
+  gap: 1rem;
+  text-align: left;
+}
+
+.list-view .member-card img {
+  display: none;
+}
+
+.list-view .member-card h2 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.list-view .member-card:nth-child(even) {
+  background-color: #003631;
+  color: #ffeda8;
+}
+
+.member-card {
+  border-radius: 8px;
+  padding: 1rem;
+  background: #ecbd35;
+  border: solid 1.5px #003631;
+  text-align: center;
+}
+
+.member-card img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.view-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 20px 0;
+}
+
+.view-toggle button{
+    cursor: pointer;
+    background-color: #003631;
+    color:#ffeda8;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+/********************socials ********************/
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 /******************** footer ********************/

@@ -32,4 +32,14 @@
         border: none;
     }
 
+    .grid-view {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .list-view .member-card {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
 }

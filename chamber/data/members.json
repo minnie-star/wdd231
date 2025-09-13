@@ -5,7 +5,7 @@
     "websiteUrl": "dukkah.co.za",
     "image": "",
     "email": "info@dukkah.co.za",
-    "membershipLevel": "3"
+    "membershipLevel": 3
     
 },
 
@@ -16,7 +16,7 @@
     "websiteUrl": "9thavenuewaterside.co.za",
     "image": "",
     "email": "dineplan.com",
-    "membershipLevel": "3"
+    "membershipLevel": 3
 },
 
 {
@@ -26,7 +26,7 @@
     "websiteUrl": "thechefstable.co.za",
     "image": "",
     "email": "info@thechefstable.com",
-    "membershipLevel": "3"
+    "membershipLevel": 3
 },
 
 {
@@ -36,7 +36,7 @@
     "websiteUrl": "coxyeats.co.za",
     "image": "",
     "email": "info@coxyyeats.com",
-    "membershipLevel": "2"
+    "membershipLevel": 2
 },
 
 {
@@ -46,7 +46,7 @@
     "websiteUrl": "www.bntacctax.co.za",
     "image": "",
     "email": "info@bnt.com",
-    "membershipLevel": "2"
+    "membershipLevel": 1
 },
 
 {
@@ -56,7 +56,7 @@
     "websiteUrl": "dlit.co.za",
     "image": "",
     "email": "hello@dlit.co.za",
-    "membershipLevel": "1"
+    "membershipLevel": 2
 },
 
 {
@@ -66,7 +66,7 @@
     "websiteUrl": "www.siyazama.co.za",
     "image": "",
     "email": "natal@siyazama.co.za",
-    "membershipLevel": "1"
+    "membershipLevel": 1
 },
 
 {

@@ -34,9 +34,9 @@ function displayMembers(members) {
       <img src="images/${member.image}" alt="${member.name}">
       <h2>${member.name}</h2>
       <p><strong>Address:</strong> ${member.address}</p>
-      <p><strong>Phone Number:</strong> ${member.phone}</p>
+      <p><strong>Phone Number:</strong> ${member.phoneNumber}</p>
       <a href="${member.website}" target="_blank">Visit Website</a>
-      <p><strong>Membership:</strong> ${membershipLevel(member.membership)}</p>
+      <p><strong>Membership:</strong> ${membershipLevel(member.membershipLevel)}</p>
       <p>${member.email}</p>
     `;
     container.appendChild(card);
@@ -56,9 +56,9 @@ gridBtn.addEventListener("click", () => {
 });
 
 listBtn.addEventListener("click", () => {
-  container.classList.add("list-view");
-  container.classList.remove("grid-view");
-});
+    container.classList.add("list-view");
+    container.classList.remove("grid-view");
+})
 
 getMembers();
 
