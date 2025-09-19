@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+.card {
+    border: 1px solid #5d5f67;
+    background-color: rgb(194, 225, 253);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card2 h2 {
+    color:black;
+    margin: .3rem 0;
+}
+
+.card #description {
+    text-transform: capitalize;
+    color:black;
+    margin: .3rem 0;
+}
+
+.card #temperature {
+    font-size: 2rem;
+    color: black;
+    margin: .3rem 0;
+}

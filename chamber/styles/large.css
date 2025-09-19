@@ -41,8 +41,19 @@
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
     }
+
+    .info-panels {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 2rem;
+    }
+
     .footer {
         grid-template-columns: 1fr 1fr;
-}
+    }
 
 }
