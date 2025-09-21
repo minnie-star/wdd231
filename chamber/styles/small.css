@@ -155,6 +155,12 @@ h1 {
 }
 
 /******************** Home page hero panel ********************/
+.map {
+  width: 250;
+  height: 200;
+  border-radius: 10px;
+}
+
 .info-panels {
   display: flex;
   position: static;
