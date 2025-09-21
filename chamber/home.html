@@ -24,9 +24,9 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
-    <script src="scripts/weather.mjs"></script>
-    <scripts src="scripts/chamber.js" defer></scripts>
+    <script src="scripts/chamber.js" defer></script>
 </head>
+
 <body>
     <header>
         <img src="images/image0.png" alt="chamber-logo" width="80" height="80">
@@ -37,43 +37,49 @@
 
     <nav id="nav-bar" class="navigation">
         <ul class="list">
-                <li><a href="#">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li class="current"><a href="#">Discover</a></li>
-                <li><a href="#">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="#">Join</a></li>
             </ul>
     </nav>
 
     <main>
         <div class="hero">
-      <picture>
-        <source srcset="images/img5.webp" media="(min-width: 1000px)">
-        <source srcset="images/img5.webp" media="(min-width: 600px)">
-        <img src="images/img5.webp" alt="chamber-members" width="100%">
-      </picture>
+            <picture>
+                <source srcset="images/img5.webp" media="(min-width: 1000px)">
+                <source srcset="images/img5.webp" media="(min-width: 600px)">
+                <img src="images/img5.webp" alt="chamber-members" class="responsive-image">
+            </picture>
 
-      <div class="info-panels">
-        <article class="info-box data-box">
-          <h2>Events</h2>
-          <span><strong>Durban Country Club Opening</strong></span>
-          <p>24 October 2025</p>
-          <p>10am - 6pm</p>
-          <span><strong>Market Day Event</strong></span>
-            <p>12 November 2025</p>
-            <p>9am - 4pm</p>
-        </article>
+            <div class="info-panels">
+                <article class="info-box data-box">
+                <h2>Events</h2>
+                <span><strong>Durban Country Club Opening</strong></span>
+                <p>24 October 2025</p>
+                <p>10am - 6pm</p>
+                <span><strong>Market Day Event</strong></span>
+                    <p>12 November 2025</p>
+                    <p>9am - 4pm</p>
+                </article>
 
-        <section>
-            <div class="info-box">
-                <h2 id="town"></h2>
-                <img id="graphic" src="" alt="">
-                <p id="description"></p>
-                <p id="temperature"></p>
+                <section>
+                    <div class="info-box">
+                        <h2 id="town"></h2>
+                        <img id="graphic" src="images/placeholders.png" alt="weather-icon">
+                        <p id="description"></p>
+                        <p id="temperature"></p>
+                    </div>
+                </section>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55407.28343143361!2d31.0288739!3d-29.778936499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef706919d1c81d3%3A0x3ab19cf4345fefaf!2sDurban%20North%2C%204051!5e0!3m2!1sen!2sza!4v1758453673310!5m2!1sen!2sza" width="250" height="200" style="border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110814.65763077559!2d30.88121798629178!3d-29.778854484172903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef706919d1c81d3%3A0x3ab19cf4345fefaf!2sDurban%20North%2C%204051!5e0!3m2!1sen!2sza!4v1758299603520!5m2!1sen!2sza" width="400" height="150" style="border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </div>
+        </div>
+
+        <h1>Durban Chamber Members</h1>
+        <span class="link"><a href="join.html">Become a member today</a></span>
+        <div class="spotlight-view">
+        <div id="spotlights"></div>
+        </div>
     </main>
     <footer>
         <div class="footer">
@@ -105,5 +111,6 @@
 
         </div>
     </footer>
+    <script src="scripts/weather.mjs"></script>
 </body>
 </html>

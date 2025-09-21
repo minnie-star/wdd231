@@ -52,6 +52,16 @@
         gap: 2rem;
     }
 
+    .spotlight-view {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #spotlights {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     .footer {
         grid-template-columns: 1fr 1fr;
     }
