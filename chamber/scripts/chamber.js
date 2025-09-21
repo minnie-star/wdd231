@@ -28,6 +28,8 @@ async function getMembers() {
 
 
 function displayMembers(members) {
+  if(!container) return;
+  
   container.innerHTML = "";
   members.forEach(member => {
     const card = document.createElement("div");
@@ -52,15 +54,19 @@ function membershipLevel(level) {
   return "Unknown";
 }
 
-gridBtn.addEventListener("click", () => {
+if (gridBtn) {
+  gridBtn.addEventListener("click", () => {
   container.classList.add("grid-view");
   container.classList.remove("list-view");
 });
+}
 
-listBtn.addEventListener("click", () => {
+if (listBtn) {
+  listBtn.addEventListener("click", () => {
     container.classList.add("list-view");
     container.classList.remove("grid-view");
 })
+}
 
 getMembers();
 
