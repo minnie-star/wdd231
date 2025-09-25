@@ -4,8 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const formDateTime = document.getElementById("datetime");
     const datetime = document.datetime;
 
-    formDateTime.textContent = `Date and Time: ${datetime} `
+    if(formDateTime) {
+        formDateTime.textContent = `Date and Time: ${datetime} `
+    }
     
+
 
     const links = document.querySelectorAll('.info-link');
     const modals = document.querySelectorAll('.modal');
