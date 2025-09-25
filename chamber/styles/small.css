@@ -236,7 +236,7 @@ h3 {
 }
 
 input[type=text],
-input[type=phone],
+input[type=tel],
 input[type=email]
     {
   display: block;
