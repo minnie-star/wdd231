@@ -48,8 +48,8 @@
             <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
             <label>Organization Title<input type="text" name="organization-title" required autocomplete="Your Organization" title="Your Organization Title"></label>
             <label>Email Address <input type="email" name="email" autocomplete="email" title="Your Email"></label>
-            <label>Phone Number <input type="tel" name="phone" required autocomplete="phone-number" title="Your Phone Number"></label>
-            <label>Organization Name <input type="text" name="organization-name" required autocomplete="organization-name" title="Your Organization Name"></label>
+            <label>Phone Number <input type="tel" name="phone" required autocomplete="tel" title="Your Phone Number"></label>
+            <label>Organization Name <input type="text" name="organization-name" required autocomplete="organization" title="Your Organization Name"></label>
 
             <label>Description<textarea>Enter text here</textarea></label>
 
@@ -59,7 +59,8 @@
             <label><input type="radio" name="membership-level" value="gold membership">Gold Membership</label>
 
             
-            <p id="datetime" type="hidden">Date and Time:</p>
+            <input type="hidden" id="datetime" name="datetime" value="Date and Time">
+
             
 
             <input type="submit" value="Schedule An Appointment"> 
