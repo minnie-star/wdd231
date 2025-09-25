@@ -3,7 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join Us</title>
+    <title>Join Us - Chamber of Commerce</title>
+    <meta name="description" content="WDD231 - Chamber of Commerce">
+    <meta name="author" content="Minenhle Hlongwane">
+    <link rel="icon" href="images/favicon.ico">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <!--social meta tags-->
+    <meta property="og:title" content="Durban Chamber of Commerce"/>
+    <meta property="og:description" content="Durban chamber of commerce is a local organization of businesses that work together to strengthen the business interests of the group. The intent of a chamber of commerce is to foster networking and to advocate on the behalf of the community."/>
+    <meta property="og:url" content="https://minnie-star.github.io/wdd231/chamber/directory.html"/>
+    <meta property="og:image" content="https://minnie-star.github.io/wdd231/chamber/directory.html/images/img.png" />
+    <meta property="og:type" content="website" />
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/chamber.js" defer></script>
@@ -33,7 +48,7 @@
             <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
             <label>Organization Title<input type="text" name="organization-title" required autocomplete="Your Organization" title="Your Organization Title"></label>
             <label>Email Address <input type="email" name="email" autocomplete="email" title="Your Email"></label>
-            <label>Phone Number <input type="phone" name="phone" required autocomplete="phone-number" title="Your Phone Number"></label>
+            <label>Phone Number <input type="telephone" name="phone" required autocomplete="phone-number" title="Your Phone Number"></label>
             <label>Organization Name <input type="text" name="organization-name" required autocomplete="organization-name" title="Your Organization Name"></label>
 
             <label>Description<textarea>Enter text here</textarea></label>
@@ -44,7 +59,7 @@
             <label><input type="radio" name="membership-level" value="gold membership">Gold Membership</label>
 
             
-            <p id="datetime">Date and Time:</p>
+            <p id="datetime" type="hidden">Date and Time:</p>
             
 
             <input type="submit" value="Schedule An Appointment"> 
