@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function renderSpotlights(members) {
+
     const container = document.getElementById("spotlights");
     container.innerHTML = ""; 
 
@@ -48,8 +49,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (level === 2) return "Silver";
     return "Member";
   }
-
-
   
   // getMembers() must fetch JSON and then call renderSpotlights with the data
   getMembers().then(members => renderSpotlights(members));

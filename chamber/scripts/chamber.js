@@ -47,6 +47,7 @@ function displayMembers(members) {
   });
 }
 
+
 function membershipLevel(level) {
   if (level === 1) return "Member";
   if (level === 2) return "Silver";
@@ -69,6 +70,6 @@ if (listBtn) {
 }
 
 getMembers();
-
+//displayMembers(members);
 
 })

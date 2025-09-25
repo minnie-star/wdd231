@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Build Your Grocery List</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Build Your List</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="history.html">Saved Lists</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <form id="grocery-form">
+      <label for="item">Add Item:</label>
+      <input type="text" id="item" name="item" aria-label="Grocery item">
+      <button type="submit">Add</button>
+    </form>
+    <section id="list-container">
+      <h2>Your List</h2>
+      <ul id="grocery-list"></ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Smart Grocery List</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

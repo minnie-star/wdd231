@@ -62,6 +62,12 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    form {
+        
+        place-items: left;
+        margin: 3rem;
+    }
+
     .footer {
         grid-template-columns: 1fr 1fr;
     }
