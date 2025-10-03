@@ -52,6 +52,14 @@
         gap: 2rem;
     }
 
+    .membership-cards {
+        grid-template-columns: 1fr;
+        position: absolute;
+        right: 10%;
+        top: 36%;
+        width: 30%;
+    }
+
     .spotlight-view {
         display: flex;
         flex-direction: row;
@@ -64,6 +72,12 @@
 
     form {
         margin: 3rem;
+    }
+
+    #allplaces {
+        display: grid; 
+        grid-template-columns: 1fr 1fr ;
+       
     }
 
     .footer {

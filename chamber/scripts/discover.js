@@ -7,7 +7,7 @@ function displayItems(places) {
     places.forEach(x => {
         const card = document.createElement('div')
         const photo = document.createElement('img')
-        photo.src = `images/${x.photo_link}`
+        photo.src = `images/${x.photo_url}`
         photo.alt = x.name 
 
         card.appendChild(photo)
