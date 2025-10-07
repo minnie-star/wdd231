@@ -1,0 +1,137 @@
+/******************** header ********************/
+
+header {
+  display: grid;
+  grid-template-columns:  44px auto 44px;
+  padding: 5px 0 5px 10px;
+  text-align: center;
+  background-color: #a6122d;
+  color: #dce4f0;
+  
+  column-gap: 8px;
+}
+
+header span {
+  font-size: 1.2rem;
+  padding-top: 25px;
+}
+
+.hamburger {
+  background-color: #a6122d;
+  border: none;
+  color: #f0f0f0;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+  content: "\2630";
+  font-size: 2rem;
+}
+
+.hamburger.show::before {
+  content: "\00D7"
+}
+
+/******************** navigation ********************/
+
+.navigation {
+  display: none;
+}
+
+.navigation.show {
+  display: block
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.navigation a {
+  display: block;
+  padding: .8rem 10px;
+  background-color: #f0f0f0;
+  color: #6e0418;
+  text-decoration: none;
+  border-bottom: solid 1px #c51636;
+}
+
+.navigation li.current a{
+  background-color: #f0f0f0;
+}
+
+.navigation a:hover {
+  background-color: #ffc64f;
+}
+
+/******************** body ********************/
+
+body {
+  background-color: #f0f0f0;
+  color: #6e0418;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.info-panels {
+  display: flex;
+  position: static;
+  transform: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.data-box {
+    text-align: center;
+}
+
+.responsive-image {
+  width: 100%;
+}
+
+.hero button {
+    background-color: aliceblue;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.info-box {
+  background-color: rgb(240, 243, 245);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/******************** footer ********************/
+
+footer {
+  background-color: #a6122d;
+  color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.footer span {
+  display: block;
+}
+
+.footer span {
+  display: inline-block;
+  width: 100%;
+}
