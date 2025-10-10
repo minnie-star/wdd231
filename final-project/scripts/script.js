@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
     })
-    .catch(err => {
+    .catch(error => {
         document.getElementById('sa-news').innerHTML = `<p>Error loading news: ${error.message}</p>`
     });
 
