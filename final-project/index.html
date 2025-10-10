@@ -23,7 +23,8 @@
     <!--styles and scripts-->
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
-    <script src="scripts/index.js"></script>
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/africa.js"></script>
 </head>
 <body>
     <header>
@@ -52,8 +53,29 @@
                 <h2><strong>ANN</strong></h2>
                 <p>Bring you the latest Africa,</p>
                 <p>South Africa, & Tech news</p>
-                <button>Subscribe</button>
+                <button id="subscribeBtn">Subscribe</button>
                 </article>
+
+                <!-- Modal structure -->
+                <div id="subscribeModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Subscribe to ANN</h3>
+                    
+                    <form method="GET" action="thanks.html">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" name="surname" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <button type="submit">Submit</button>
+                    </form>
+                </div>
+                </div>
 
                 <section>
                     <div class="info-box">
@@ -92,6 +114,9 @@
                 <p>Browse our sections for top stories, regional updates, and special features that celebrate the spirit of South Africa. Whether you are a local following the latest developments or a traveler eager to understand the country’s rhythm, this page is your trusted companion for South African news.</p>
             </section>
         </div>
+
+        <h2>Browse all news</h2>
+        
         <div class="news-container" id="news"></div>
 
     </main>
