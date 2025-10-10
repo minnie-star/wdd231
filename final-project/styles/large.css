@@ -24,7 +24,7 @@
 
     .navigation ul {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         justify-content: space-around;
     }
 
@@ -40,5 +40,15 @@
         left: 50%;
         transform: translate(-50%, -50%);
         gap: 2rem;
+    }
+
+    .block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
