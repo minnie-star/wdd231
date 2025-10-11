@@ -24,6 +24,11 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    document.getElementById('themeToggle').addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    });
+
+
     // SELECT HTML ELEMENTS IN THE DOCUMENT
     const myTown = document.querySelector('#town');
     const myDescription = document.querySelector('#description');
@@ -104,34 +109,53 @@ document.addEventListener("DOMContentLoaded", () => {
             return response.json();
         })
         .then(data => {
-            const container = document.getElementById('news');
-            if (!container) { 
-                console.error("Element with ID 'news' not found in HTML.");
-                return;
-            }
+        const container = document.getElementById('news');
+        if (!container) { 
+            console.error("Element with ID 'news' not found in HTML.");
+            return;
+        }
 
-            container.innerHTML = '';
+        container.innerHTML = '';
 
-            if (!data.articles || data.articles.length === 0) {
-                container.innerHTML = '<p>No article found</p>';
-            } else {
-                data.articles.forEach(article => {
-                    const articleDiv = document.createElement('div');
-                    articleDiv.classList.add('article');
-                    articleDiv.innerHTML = `
-                        <img src="${article.urlToImage || 'https://via.placeholder.com/300x180?text=No+Image'}" alt="No Image">
-                        <h2>${article.title}</h2>
-                        <p>${article.description || 'No description available.'}</p>
-                        <a href="${article.url}" target="_blank">Read more</a>
-                    `;
-                    container.appendChild(articleDiv);
-                });
-            }
-        })
+        if (!data.articles || data.articles.length === 0) {
+            container.innerHTML = '<p>No article found</p>';
+        } else {
+            // Shuffle the articles randomly
+            const shuffled = data.articles
+                .sort(() => Math.random() - 0.5) 
+                .slice(0, 8); 
+
+            shuffled.forEach(article => {
+                const articleDiv = document.createElement('div');
+                articleDiv.classList.add('article');
+                articleDiv.innerHTML = `
+                    <img src="${article.urlToImage || 'https://placehold.co/300x180?text=No+Image'}" alt="No Image">
+                    <h2>${article.title}</h2>
+                    <p>${article.description || 'No description available.'}</p>
+                    <a href="${article.url}" target="_blank">Read more</a>
+                `;
+                container.appendChild(articleDiv);
+            });
+        }
+    })
+
         .catch(error => {
             document.getElementById('news').innerHTML = `<p>Error loading news: ${error.message}</p>`;
         });
 
+    const scrollTopBtn = document.getElementById('scrollTop');
+
+    window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        scrollTopBtn.style.display = 'block';
+    } else {
+        scrollTopBtn.style.display = 'none';
+    }
+    });
+
+    scrollTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 
 
 })

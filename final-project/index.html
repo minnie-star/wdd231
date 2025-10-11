@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/index.js" defer></script>
-    <script src="scripts/africa.js"></script>
+    <script src="scripts/form.js"></script>
 </head>
 <body>
     <header>
@@ -35,8 +35,8 @@
 
     <nav id="nav-bar" class="navigation">
         <ul class="list">
-                <li><a href="index.html">Home</a></li>
-                <li class="current"><a href="africa.html">Africa</a></li>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="africa.html">Africa</a></li>
                 <li><a href="sa.html">South Africa</a></li>
             </ul>
     </nav>
@@ -45,7 +45,7 @@
             <picture>
                 <source srcset="images/hero-img.webp" media="(min-width: 1000px)">
                 <source srcset="images/hero-img.webp" media="(min-width: 600px)">
-                <img src="images/hero-img.webp" alt="hero-image" class="responsive-image" loading="lazy">
+                <img src="images/hero-img.webp" alt="hero-image" class="responsive-image">
             </picture>
 
             <div class="info-panels">
@@ -97,11 +97,15 @@
         </div>
         <h1>Africa News Network</h1>
 
+        <div class="theme-toggle-container">
+        <button id="themeToggle">Dark Theme</button>
+        </div>
+
+
         <div class="cards">
             <section>
                 <h2><strong>Who we are</strong></h2>
-                <p>African News Network (ANN) provides accurate, current, and balanced news from across Africa, giving readers a clear view of the continent’s political, economic, and cultural developments. Its purpose is to connect people through credible journalism that highlights Africa’s progress, challenges, and stories of change. ANN aims to inform, inspire, and empower readers with knowledge that matters. Browse our sections to stay updated and explore Africa through trusted, local perspectives.
-</p>
+                <p>African News Network (ANN) provides accurate, current, and balanced news from across Africa, giving readers a clear view of the continent’s political, economic, and cultural developments. Its purpose is to connect people through credible journalism that highlights Africa’s progress, challenges, and stories of change. ANN aims to inform, inspire, and empower readers with knowledge that matters. Browse our sections to stay updated and explore Africa through trusted, local perspectives.</p>
             </section>
 
             <section>
@@ -116,8 +120,15 @@
         </div>
 
         <h2>Browse all news</h2>
+
         
         <div class="news-container" id="news"></div>
+
+        <img src="images/africa.webp" alt="hero-image" class="map" loading="lazy">
+
+        <button id="scrollTop">↑</button>
+
+        
 
     </main>
     <footer>

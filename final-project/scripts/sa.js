@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const fromDate = sixMonthsAgo.toISOString().split('T')[0];
     const toDate = today.toISOString().split('T')[0];
 
+
     // filter South African news
     const saUrl = `https://newsapi.org/v2/everything?q=South%20Africa&from=${fromDate}&to=${toDate}&sortBy=publishedAt&language=en&apiKey=${apiKey}`;
 
@@ -36,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const articleDiv = document.createElement('div');
                 articleDiv.classList.add('article');
                 articleDiv.innerHTML = `
-                <img src=${article.urlToImage || 'https://via.placeholder.com/300x180?text=No+Image'}" alt="No Image"
+                <img src=${article.urlToImage || 'https://placehold.co/300x180?text=No+Image'}" alt="No Image">
                 <h2>${article.title}</h2>
                 <p>${article.description || 'No description available.'}</p>
                 <a href="${article.url}" target="_blank">Read more</a>`;
@@ -49,6 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch(error => {
         document.getElementById('sa-news').innerHTML = `<p>Error loading news: ${error.message}</p>`
     });
-
+  
+    
 
 })
