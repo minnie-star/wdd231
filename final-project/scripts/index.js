@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    // DARK THEME TOGGLE
     document.getElementById('themeToggle').addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     });
@@ -49,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const response = await fetch(myURL);
             if (response.ok) {
                 const data = await response.json();
-                console.log(data); // for debugging
+                console.log(data); 
                 displayResults(data);
             } else {
                 throw new Error(await response.text());

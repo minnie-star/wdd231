@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return response.json();
         })
         .then(data => {
-            const container = document.getElementById('news');
+            const container = document.getElementById('africa-news');
             if (!container) { 
                 console.error("Element with ID 'news' not found in HTML.");
                 return;
@@ -45,6 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         })
         .catch(error => {
-            document.getElementById('news').innerHTML = `<p>Error loading news: ${error.message}</p>`;
+            document.getElementById('africa-news').innerHTML = `<p>Error loading news: ${error.message}</p>`;
         });
 }) 
