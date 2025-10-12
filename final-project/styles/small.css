@@ -369,6 +369,10 @@ button:hover {
   margin-bottom: 10px;
 }
 
+.spotlight-content a {
+  text-decoration: none;
+  color: #6e0418;
+}
 
 #scrollTop {
   position: fixed;
