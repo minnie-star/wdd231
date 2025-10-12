@@ -1,94 +1,101 @@
-{
-  "articles": [
-    {
-      "title": "Cape Town Launches Green Energy Initiative",
-      "summary": "The city announces a solar-powered grid expansion to reduce reliance on coal.",
-      "source": "Cape Times",
-      "date": "2025-10-10"
-    },
-    {
-      "title": "Youth Unemployment Drops in Gauteng",
-      "summary": "New internship programs and tech hubs credited for a 6% drop in youth joblessness.",
-      "source": "Business Day",
-      "date": "2025-10-09"
-    },
-    {
-      "title": "Durban Hosts Africa Climate Summit",
-      "summary": "Leaders gather to discuss regional climate resilience and funding strategies.",
-      "source": "eNCA",
-      "date": "2025-10-08"
-    },
-    {
-      "title": "South African Film Wins Cannes Award",
-      "summary": "‘Ubuntu Rising’ takes home Best Foreign Feature, spotlighting township life.",
-      "source": "SABC News",
-      "date": "2025-10-07"
-    },
-    {
-      "title": "Load Shedding Eases Nationwide",
-      "summary": "Eskom reports improved grid stability after maintenance upgrades.",
-      "source": "News24",
-      "date": "2025-10-06"
-    },
-    {
-      "title": "Johannesburg Startup Raises R50 Million",
-      "summary": "Fintech firm aims to expand mobile banking access in rural areas.",
-      "source": "TechCentral",
-      "date": "2025-10-05"
-    },
-    {
-      "title": "Western Cape Farmers Adopt AI Tools",
-      "summary": "Precision agriculture gains traction to combat drought and boost yields.",
-      "source": "AgriSA Weekly",
-      "date": "2025-10-04"
-    },
-    {
-      "title": "New Rail Line Connects Pretoria to Polokwane",
-      "summary": "High-speed train promises to cut travel time by 40%.",
-      "source": "SA Transport Review",
-      "date": "2025-10-03"
-    },
-    {
-      "title": "Local Artists Revive Soweto Street Culture",
-      "summary": "Graffiti, dance, and music festivals bring new energy to historic neighborhoods.",
-      "source": "City Press",
-      "date": "2025-10-02"
-    },
-    {
-      "title": "South Africa’s Inflation Rate Holds Steady",
-      "summary": "Reserve Bank maintains interest rate amid stable consumer prices.",
-      "source": "Fin24",
-      "date": "2025-10-01"
-    },
-    {
-      "title": "Eastern Cape Schools Roll Out Coding Curriculum",
-      "summary": "Grade 7 learners now receive weekly programming lessons.",
-      "source": "Daily Dispatch",
-      "date": "2025-09-30"
-    },
-    {
-      "title": "Cape Flats Community Garden Wins National Award",
-      "summary": "Urban farming project recognized for food security innovation.",
-      "source": "GroundUp",
-      "date": "2025-09-29"
-    },
-    {
-      "title": "SA Rugby Team Prepares for World Cup",
-      "summary": "Springboks gear up with new training camp in KwaZulu-Natal.",
-      "source": "SuperSport",
-      "date": "2025-09-28"
-    },
-    {
-      "title": "New Legislation Targets Gender-Based Violence",
-      "summary": "Parliament passes bill to strengthen survivor protections and police accountability.",
-      "source": "Mail & Guardian",
-      "date": "2025-09-27"
-    },
-    {
-      "title": "Tourism Rebounds in Limpopo",
-      "summary": "Game reserves and cultural sites see 30% increase in visitors post-pandemic.",
-      "source": "Travel Africa",
-      "date": "2025-09-26"
-    }
-  ]
-}
+[
+  {
+    "title": "South Africa draws global interest for $500 million funding initiative",
+    "description": "South Africa’s National Treasury has received over 100 global proposals for its $500 million foreign currency financing initiative, as it seeks to diversify funding beyond Eurobonds. :contentReference[oaicite:0]{index=0}",
+    "link": "https://www.reuters.com/world/africa/south-africa-draws-global-interest-500-million-funding-initiative-2025-10-09/",
+    "image_url": "https://www.reuters.com/resizer/5f6JArJQqVqTrRy0AYYkr7GNDqw=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/5RWJ3VIZWVQ7TIPG74HG76TRUE.jpg",
+    "code": "za"
+  },
+  {
+    "title": "AI fintech Optasia aims to raise $375 million in South African listing",
+    "description": "Optasia, an AI-driven fintech company, announced plans to list on the Johannesburg Stock Exchange and raise up to 6.3 billion rand. :contentReference[oaicite:1]{index=1}",
+    "link": "https://www.reuters.com/world/africa/ai-fintech-optasia-aims-raise-375-million-south-african-listing-2025-10-08/",
+    "image_url": "https://www.reuters.com/resizer/2FeisKleb5fLUEiVjwBLJEtdhRg=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/NSRJTVQGLRIAJOIQJ4B7K6HRZ4.jpg",
+    "code": "za"
+  },
+  {
+    "title": "South Africa’s parliament passes last major budget bill",
+    "description": "The South African National Assembly passed the final major component of its budget after delays and political wrangling in the coalition government. :contentReference[oaicite:2]{index=2}",
+    "link": "https://www.reuters.com/world/africa/south-africas-parliament-passes-last-major-budget-bill-2025-07-23/",
+    "image_url": "https://www.reuters.com/resizer/jUdU_oXNSGw6PduBjchqNe1biGc=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/FLT7WZUX35MI5BZKSRHBZP32X4.jpg",
+    "code": "za"
+  },
+  {
+    "title": "S.African court grants Transnet control of disputed Chinese spares",
+    "description": "A court ruled that CRRC must release locomotive spare parts withheld from Transnet in a contractual dispute. :contentReference[oaicite:3]{index=3}",
+    "link": "https://www.reuters.com/world/asia-pacific/safrican-court-grants-transnet-control-disputed-chinese-spares-2025-10-09/",
+    "image_url": "https://www.reuters.com/resizer/boXdbQd-MG0Di4_cIdAVr4D5478=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/RKOUMW6CSNKHJG6UG2NOMIK7R4.jpg",
+    "code": "za"
+  },
+  {
+    "title": "EU pledges 11.5 billion euros of investment in South Africa",
+    "description": "The European Union pledged to invest 11.5 billion euros in South Africa across clean energy, infrastructure, and pharmaceuticals. :contentReference[oaicite:4]{index=4}",
+    "link": "https://www.reuters.com/world/africa/eu-pledges-115-billion-euros-investment-south-africa-2025-10-10/",
+    "image_url": "https://www.reuters.com/resizer/picture_alias=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/…/Yves_Herman_image.jpg",
+    "code": "za"
+  },
+  {
+    "title": "South Africa’s business activity growth hits four-year high, PMI shows",
+    "description": "South Africa’s business activity grew at the fastest pace in four years in May, per the S&P Global PMI. :contentReference[oaicite:5]{index=5}",
+    "link": "https://www.reuters.com/world/africa/south-africas-business-activity-growth-hits-four-year-high-pmi-shows-2025-06-04/",
+    "image_url": "https://www.reuters.com/resizer/picture_alias=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/…/business_image.jpg",
+    "code": "za"
+  },
+  {
+    "title": "South African economy barely grows in first quarter",
+    "description": "The economy expanded only 0.1 % in Q1 2025, with mining and manufacturing declining while agriculture staved off worse outcomes. :contentReference[oaicite:6]{index=6}",
+    "link": "https://www.reuters.com/world/africa/south-africas-first-quarter-gdp-rises-01-qq-2025-06-03/",
+    "image_url": "https://www.reuters.com/resizer/picture_alias=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/…/gdp_image.jpg",
+    "code": "za"
+  },
+  {
+    "title": "At least 60 killed in attack on Sudan’s al-Fashir, activists say",
+    "description": "Drone and artillery strikes by the Rapid Support Forces hit a shelter in al-Fashir, killing at least 60 people, according to activists. :contentReference[oaicite:7]{index=7}",
+    "link": "https://www.reuters.com/world/africa/least-12-killed-sudans-al-fashir-after-drone-strike-2025-10-11/",
+    "image_url": "https://www.reuters.com/resizer/picture_alias=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/…/al_fashir_image.jpg"
+  },
+  {
+    "title": "Rwandan rebels’ fate clouds Trump’s vision for mineral-rich Congo",
+    "description": "The future of a small rebel group could derail U.S. plans for mining in DR Congo despite a peace deal. :contentReference[oaicite:8]{index=8}",
+    "link": "https://www.reuters.com/world/africa/rwandan-rebels-fate-clouds-trumps-vision-mineral-rich-congo-2025-07-23/",
+    "image_url": "https://www.reuters.com/resizer/picture_alias=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/…/rebel_image.jpg"
+  },
+  {
+    "title": "South African president says national dialogue will continue without coalition partner",
+    "description": "Cyril Ramaphosa said the national dialogue process would persist, even though the DA withdrew from the process. :contentReference[oaicite:9]{index=9}",
+    "link": "https://www.reuters.com/world/africa/south-african-president-says-national-dialogue-will-continue-without-coalition-2025-07-04/",
+    "image_url": "https://www.reuters.com/resizer/picture_alias=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/…/ramaphosa_image.jpg",
+    "code": "za"
+  },
+  {
+    "title": "Namibia shock South Africa in one-off T20",
+    "description": "Namibia surprised South Africa with a four-wicket win in a one-off T20 match in Windhoek. :contentReference[oaicite:10]{index=10}",
+    "link": "https://www.reuters.com/sports/cricket/namibia-shock-south-africa-one-off-t20-2025-10-11/",
+    "image_url": "https://www.reuters.com/resizer/picture_alias=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/…/cricket_image.jpg"
+  },
+  {
+    "title": "South African markets soar despite weak economic data",
+    "description": "Johannesburg markets reached record highs despite underlying economic weakness and tariff pressures. :contentReference[oaicite:11]{index=11}",
+    "link": "https://www.reuters.com/world/africa/south-african-markets-soar-despite-weak-economic-data-slow-reforms-2025-09-15/",
+    "image_url": "https://www.reuters.com/resizer/picture_alias=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/…/markets_image.jpg",
+    "code": "za"
+  },
+  {
+    "title": "After Ukraine deal, US turns its critical minerals gaze to Africa",
+    "description": "With tensions easing in Ukraine, the U.S. is shifting attention to Africa’s critical minerals for supply diversification. :contentReference[oaicite:12]{index=12}",
+    "link": "https://www.reuters.com/markets/commodities/after-ukraine-deal-us-turns-its-critical-minerals-gaze-africa-andy-home-2025-05-06/",
+    "image_url": "https://www.reuters.com/resizer/picture_alias=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/…/minerals_image.jpg"
+  },
+  {
+    "title": "Africa looks to raise $50 bln a year for new climate solutions initiative",
+    "description": "At a climate summit in Addis Ababa, leaders proposed mobilizing $50 billion annually to support climate solutions across Africa. :contentReference[oaicite:13]{index=13}",
+    "link": "https://www.reuters.com/sustainability/cop/africa-looks-raise-50-bln-year-new-climate-solutions-initiative-2025-09-10/",
+    "image_url": "https://www.reuters.com/resizer/picture_alias=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/…/climate_image.jpg"
+  },
+  {
+    "title": "South Africa mine rescue ends, anger rises over 78 deaths in police siege",
+    "description": "Rescuers ended their efforts in an illicit mine near Stilfontein, where 78 people died during a police siege. :contentReference[oaicite:14]{index=14}",
+    "link": "https://www.reuters.com/world/africa/south-african-police-lower-cage-into-mine-check-if-anyone-left-after-78-died-2025-01-16/",
+    "image_url": "https://www.reuters.com/resizer/picture_alias=/1200x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/reuters/…/mine_image.jpg"
+  }
+]

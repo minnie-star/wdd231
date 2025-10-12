@@ -1,52 +1,54 @@
 document.addEventListener("DOMContentLoaded", () => {
-    //const apiKey = 'fe2d6bfedff74dc1b87b558fd485d128';
 
-   const apiKey = 'f357dac3cb6e63d1fe460195eebeec5f'
+    // Fetch and display African news
+    async function loadNews() {
+    try {
+        const response = await fetch('data/news.json');
+        const articles = await response.json();
+        displayNews(articles, 'grid');
+    } catch (error) {
+        console.error('Error loading news:', error);
+    }
+    }
 
-    // Calculate dates for past 1 months
-    const today = new Date();
-    const sixMonthsAgo = new Date();
-    sixMonthsAgo.setMonth(today.getMonth() - 1);
+    // Display news articles
+    function displayNews(articles, viewType) {
+    const container = document.getElementById('news-container');
+    container.innerHTML = ''; 
 
-    const fromDate = sixMonthsAgo.toISOString().split('T')[0];
-    const toDate = today.toISOString().split('T')[0];
+    container.className = viewType === 'grid' ? 'news-grid' : 'news-list';
 
-    //const url = `https://newsapi.org/v2/everything?q=Africa&from=${fromDate}&to=${toDate}&sortBy=publishedAt&language=en&apiKey=${apiKey}`;
-    
-    const url = `https://gnews.io/api/v4/search?q=example&from=${fromDate}&to=${toDate}&apikey=${apiKey}` 
-    fetch(url)
-        .then(response => {
-            if (!response.ok){
-                throw new Error(`Network response was not ok:${response.status}`);
-            }
-            return response.json();
-        })
-        .then(data => {
-            const container = document.getElementById('africa-news');
-            if (!container) { 
-                console.error("Element with ID 'news' not found in HTML.");
-                return;
-            }
+    articles.forEach(article => {
+        const articleElement = document.createElement('article');
+        articleElement.classList.add('news-item');
 
-            container.innerHTML = '';
+        articleElement.innerHTML = `
+        <img src="${article.image}" alt="${article.title}">
+        <div class="news-content">
+            <h3>${article.title}</h3>
+            <p>${article.description}</p>
+            <a href="${article.link}" target="_blank">Read more</a>
+        </div>
+        `;
 
-            if (!data.articles || data.articles.length === 0) {
-                container.innerHTML = '<p>No article found</p>';
-            } else {
-                data.articles.forEach(article => {
-                    const articleDiv = document.createElement('div');
-                    articleDiv.classList.add('article');
-                    articleDiv.innerHTML = `
-                        <img src="${article.urlToImage || 'https://placehold.co/300x180?text=No+Image'}" alt="No Image">
-                        <h2>${article.title}</h2>
-                        <p>${article.description || 'No description available.'}</p>
-                        <a href="${article.url}" target="_blank">Read more</a>
-                    `;
-                    container.appendChild(articleDiv);
-                });
-            }
-        })
-        .catch(error => {
-            document.getElementById('africa-news').innerHTML = `<p>Error loading news: ${error.message}</p>`;
-        });
+        container.appendChild(articleElement);
+    });
+    }
+
+    // Event listeners for view toggle buttons
+    document.getElementById('grid-view').addEventListener('click', async () => {
+    const response = await fetch('data/news.json');
+    const articles = await response.json();
+    displayNews(articles, 'grid');
+    });
+
+    document.getElementById('list-view').addEventListener('click', async () => {
+    const response = await fetch('data/news.json');
+    const articles = await response.json();
+    displayNews(articles, 'list');
+    });
+
+    // Initialize
+    loadNews();
+
 }) 
