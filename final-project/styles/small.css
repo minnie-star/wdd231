@@ -6,7 +6,7 @@ header {
   padding: 5px 0 5px 10px;
   text-align: center;
   background-color: #a6122d;
-  color: #dce4f0;
+  color: white;
   
   column-gap: 8px;
 }
@@ -171,7 +171,7 @@ h1 {
 
 .news-item a {
     text-decoration: none;
-    color: #007bff;
+    color: #6e0418;
     font-weight: bold;
 }
 
@@ -273,7 +273,7 @@ button {
 }
 
 button {
-  background-color: #007bff;
+  background-color: #a6122d;
   color: white;
   border: none;
   padding: 8px 12px;
@@ -282,7 +282,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #d41f40;
 }
 
 #results {
@@ -394,7 +394,7 @@ button:hover {
 
 footer {
   background-color: #a6122d;
-  color: #f0f0f0;
+  color: white;
   padding: 1rem;
   text-align: center;
   margin-top: 5px;
