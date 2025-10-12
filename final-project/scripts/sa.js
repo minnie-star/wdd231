@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const apiKey = 'fe2d6bfedff74dc1b87b558fd485d128';
+    const apiKey = 'f357dac3cb6e63d1fe460195eebeec5f';
 
     const today = new Date();
     const sixMonthsAgo = new Date();
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // filter South African news
-    const saUrl = `https://newsapi.org/v2/everything?q=South%20Africa&from=${fromDate}&to=${toDate}&sortBy=publishedAt&language=en&apiKey=${apiKey}`;
+    const saUrl = `https://gnews.io/api/v4/search?q=example&from=${fromDate}&to=${toDate}&apikey=${apiKey}`;
 
     fetch(saUrl)
     .then(res => {

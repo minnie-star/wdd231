@@ -1,0 +1,94 @@
+{
+  "articles": [
+    {
+      "title": "Cape Town Launches Green Energy Initiative",
+      "summary": "The city announces a solar-powered grid expansion to reduce reliance on coal.",
+      "source": "Cape Times",
+      "date": "2025-10-10"
+    },
+    {
+      "title": "Youth Unemployment Drops in Gauteng",
+      "summary": "New internship programs and tech hubs credited for a 6% drop in youth joblessness.",
+      "source": "Business Day",
+      "date": "2025-10-09"
+    },
+    {
+      "title": "Durban Hosts Africa Climate Summit",
+      "summary": "Leaders gather to discuss regional climate resilience and funding strategies.",
+      "source": "eNCA",
+      "date": "2025-10-08"
+    },
+    {
+      "title": "South African Film Wins Cannes Award",
+      "summary": "‘Ubuntu Rising’ takes home Best Foreign Feature, spotlighting township life.",
+      "source": "SABC News",
+      "date": "2025-10-07"
+    },
+    {
+      "title": "Load Shedding Eases Nationwide",
+      "summary": "Eskom reports improved grid stability after maintenance upgrades.",
+      "source": "News24",
+      "date": "2025-10-06"
+    },
+    {
+      "title": "Johannesburg Startup Raises R50 Million",
+      "summary": "Fintech firm aims to expand mobile banking access in rural areas.",
+      "source": "TechCentral",
+      "date": "2025-10-05"
+    },
+    {
+      "title": "Western Cape Farmers Adopt AI Tools",
+      "summary": "Precision agriculture gains traction to combat drought and boost yields.",
+      "source": "AgriSA Weekly",
+      "date": "2025-10-04"
+    },
+    {
+      "title": "New Rail Line Connects Pretoria to Polokwane",
+      "summary": "High-speed train promises to cut travel time by 40%.",
+      "source": "SA Transport Review",
+      "date": "2025-10-03"
+    },
+    {
+      "title": "Local Artists Revive Soweto Street Culture",
+      "summary": "Graffiti, dance, and music festivals bring new energy to historic neighborhoods.",
+      "source": "City Press",
+      "date": "2025-10-02"
+    },
+    {
+      "title": "South Africa’s Inflation Rate Holds Steady",
+      "summary": "Reserve Bank maintains interest rate amid stable consumer prices.",
+      "source": "Fin24",
+      "date": "2025-10-01"
+    },
+    {
+      "title": "Eastern Cape Schools Roll Out Coding Curriculum",
+      "summary": "Grade 7 learners now receive weekly programming lessons.",
+      "source": "Daily Dispatch",
+      "date": "2025-09-30"
+    },
+    {
+      "title": "Cape Flats Community Garden Wins National Award",
+      "summary": "Urban farming project recognized for food security innovation.",
+      "source": "GroundUp",
+      "date": "2025-09-29"
+    },
+    {
+      "title": "SA Rugby Team Prepares for World Cup",
+      "summary": "Springboks gear up with new training camp in KwaZulu-Natal.",
+      "source": "SuperSport",
+      "date": "2025-09-28"
+    },
+    {
+      "title": "New Legislation Targets Gender-Based Violence",
+      "summary": "Parliament passes bill to strengthen survivor protections and police accountability.",
+      "source": "Mail & Guardian",
+      "date": "2025-09-27"
+    },
+    {
+      "title": "Tourism Rebounds in Limpopo",
+      "summary": "Game reserves and cultural sites see 30% increase in visitors post-pandemic.",
+      "source": "Travel Africa",
+      "date": "2025-09-26"
+    }
+  ]
+}

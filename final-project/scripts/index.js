@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     
 
-    const apiKey = 'fe2d6bfedff74dc1b87b558fd485d128';
+    const apiKey = 'f357dac3cb6e63d1fe460195eebeec5f';
     
     // Calculate dates for past 1 months
     const today = new Date();
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const fromDate = sixMonthsAgo.toISOString().split('T')[0];
     const toDate = today.toISOString().split('T')[0];
 
-    const url = `https://newsapi.org/v2/everything?q=Africa&from=${fromDate}&to=${toDate}&sortBy=publishedAt&language=en&apiKey=${apiKey}`;
+    const url = `https://gnews.io/api/v4/search?q=example&from=${fromDate}&to=${toDate}&apikey=${apiKey}`;
     
     
     fetch(url)
