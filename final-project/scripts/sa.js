@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         newsCard.classList.add('news-item');
 
         newsCard.innerHTML = `
-        <img src="${article.image}" alt="${article.title}">
+        <img src="images/${article.image}" alt="${article.title}">
         <div class="news-content">
             <h3>${article.title}</h3>
             <p>${article.description}</p>

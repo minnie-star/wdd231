@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         articleElement.classList.add('news-item');
 
         articleElement.innerHTML = `
-        <img src="${article.image}" alt="${article.title}">
+        <img src="images/${article.image}" alt="${article.title}">
         <div class="news-content">
             <h3>${article.title}</h3>
             <p>${article.description}</p>
